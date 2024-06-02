@@ -52,7 +52,7 @@ public class EmployeeController {
         }
 
     }
- /*   @PutMapping(value = "/updateEmployee")
+    @PutMapping(value = "/updateEmployee")
     public ResponseEntity updateEmployee(@RequestBody EmployeeDTO employeeDTO){
         try {
             String res=employeeService.updateEmployee(employeeDTO);
@@ -146,6 +146,6 @@ public class EmployeeController {
             responseDTO.setContent(e);
             return new ResponseEntity(responseDTO, HttpStatus.INTERNAL_SERVER_ERROR);
         }
-    }*/
+    }
 
 }
